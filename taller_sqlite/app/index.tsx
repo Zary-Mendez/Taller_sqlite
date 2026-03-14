@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Text } from "react-native";
 import { initDB, insertarProgramasIfEmpty } from "../database/database";
-import EstudiantesScreen from "../screens/EstudiantesScreen";
+import EstudiantesScreen from "./EstudiantesScreen";
 
 export default function Home() {
   const [isReady, setIsReady] = useState(false);
